@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text":"not Complete the schedule"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/6414b03105f039e74096ad9d
+
+###
+
+PUT http://localhost:3001/todo/complete/6414ad6b812e9f0e79429df8
